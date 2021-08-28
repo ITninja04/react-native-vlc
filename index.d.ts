@@ -44,6 +44,7 @@ export declare interface VLCPlayerProps {
     onVideoStopped?: VLCFunctionType | undefined;
     onVideoBuffering?: VLCFunctionType | undefined;
     onVideoOpen?: VLCFunctionType | undefined;
+    autoplay?: boolean | undefined;
 
     /* Wrapper component */
     source?: VLCPlayerSourceType | undefined;
